@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Temporary / Agent scripts
+powershell.cmd
+install_git.ps1
+push_to_github.ps1
+*.log
+
+# IDE & System files
+.gemini/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
