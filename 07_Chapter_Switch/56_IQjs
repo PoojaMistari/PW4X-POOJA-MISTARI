@@ -1,0 +1,21 @@
+let testScore=85;
+
+switch(true){
+    case (testScore>=95):
+        console.log("A+");
+        break;  
+    case (testScore>=85):
+        console.log("B");
+        break;
+        case (testScore>=75):
+        console.log("C");
+        break;  
+        case (testScore>=65):
+        console.log("D");
+        break;
+        case (testScore>=50):
+        console.log("E");
+        break;
+    default:
+        console.log("unsatisfactory test score");
+}   
