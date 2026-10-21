@@ -1,0 +1,3 @@
+//every vs some
+console.log([80,90,85].every((value)=>value>70)); // true  //every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+console.log([80,90,85].some((value)=>value>70)); // true  //some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value.
