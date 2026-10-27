@@ -8,3 +8,4 @@ console.log(num); // [21,10,2,1]  //descending order is done by comparing the el
 let fruits=["apple","date","cherry","banana"];
 fruits.sort((a,b)=>a.localeCompare(b));
 console.log(fruits); // ["apple", "banana", "cherry", "date"]  //ascending order is done by comparing the elements based on their locale-specific string values.
+
